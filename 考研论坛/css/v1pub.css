@@ -1,0 +1,185 @@
+img{border:0px none;}
+body,td,th,textarea{font:12px/1.6em "宋体",Verdana,Helvetica,Arial,sans-serif;}
+ul,li,dl,dd,dt,p{margin:0;padding:0;}
+ul,li{list-style:none;}
+input, button, textarea, select{*font-size:100%; outline:none; font-family:inherit;}
+body{margin:0;}
+form{padding:0;border:0px;margin:0; }
+textarea{overflow:auto;padding:2px;resize:none; }
+div{margin:0 auto;}
+button{cursor:pointer;}
+
+/*常用属性*/
+.clear{overflow:hidden;clear:both;font: 0pt/0 Arial;height:0;}
+.fright{float:right;}
+.fleft{float:left;}
+.ln5{margin-top:5px;}
+.ln10{margin-top:10px;}
+.ln20{margin-top:20px;}
+.center{ text-align:center;}
+
+/*字体样式*/
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f20{font-size:20px;}
+.b{font-weight:bold;}
+.x{text-decoration:underline;}
+.green{color:green;}
+.blue{color:blue;}
+.purple{color:purple;}
+.gray{color:#999;}
+.red{color:#FF6600;}/*#CC0000*/
+a{color: #336699;text-decoration:none;}
+a:hover{color:#CC0000; text-decoration:underline;}
+
+/*布局控制*/
+.dh{width:960px;}/*全局宽控制*/
+.dh:after,.after:after{clear:both;content: ".";display: block;height: 0;visibility: hidden;}
+
+/*topnav*/
+.header {height:50px;position:relative;z-index: 100;}
+.gtop{width:100%;background-color:#f5f7fa; height:40px;position:fixed;left:0;top:0;z-index:4;box-shadow:0 0 3px rgba(0,0,0,0.8);}
+.gtop .dh{position:relative;height:40px;}
+.gtop .plogo{ width:190px;height:40px; float:left;}
+.gtop .pmenu{ padding:0; margin:0; list-style:none;}
+.gtop .pmenu li{ position:relative; padding:0 0 0 16px; float:left;}
+.gtop .pmenu li a{text-decoration:none;}
+.gtop .pmenu li a.link{display:block;float:left;padding:0 5px;height:40px;line-height:36px;position:relative;z-index:1;color:#555555;}
+.gtop .pmenu li a.hover{background:#fafafa;color:#666;border-radius:3px 3px 0 0;}
+
+.gtop .pfind{ width:200px; height:25px; background:url(../com/combg.png) no-repeat 0px 0px; float:left; margin-left:10px; margin-top:6px; }
+.gtop .pfind input{background:none;border:0 none;color:#939393;float:left;height:22px;line-height:22px;margin:2px 0 0;padding:0 5px 0 10px;width:156px;}
+.gtop .pfind a{background:none;border:0 none;cursor: pointer;float:left;height:23px;margin:1px 2px 0 0;width:27px;}
+.pchild{display:none;border:1px solid #eee;background:#fafafa;padding:3px;white-space:nowrap;position:absolute;right:0;_right:-1px;top:40px;_top:37px;box-shadow:1px 1px 3px rgba(0,0,0,0.3);min-width:120px;
+    border-radius: 0 0 3px 3px;margin:0px; list-style:none;}
+.pchild dd{ padding:0; margin:0;}
+.pchild dd a{display:block;line-height:28px;padding:0 20px;color:#666;font-size:12px;}
+.pchild dd a:hover{background:#eee;text-decoration:none;}
+.pchild dd.pchild_line{border-bottom:1px solid #d1d1d1;padding-bottom:8px;margin-bottom:5px;}
+.pchild dd.pchild_messages{padding:2px 0px;margin:0 5px;color:#666;}
+.pchild dd.pchild_messages a{display:inline;padding:0;color:#0055a2;}
+.pchild dd.pchild_messages a:hover{background:none;text-decoration:underline;}
+.plogin{ line-height: 33px;}
+.plogin a{color:#666;}
+
+/*A标签按钮*/
+.abg,.abg i{text-align:center;display:inline-block;background:url(../com/abtnbg.png) no-repeat;color:#FFFFFF;font:normal 14px/23px "微软雅黑";cursor:pointer;}
+a.abn1{background-position:left 0px;padding: 0 0 0 2px;}
+a.abn1 i{background-position:right -26px;height:24px;padding:0 10px 0 8px;text-shadow:0 1px 1px #2375C7;}
+a.abn1:hover{background-position:left -52px;}
+a.abn1:hover i{background-position:right -78px;}
+
+a.abn2{background-position:left -104px;padding: 0 0 0 2px;}
+a.abn2 i{background-position:right -130px;height:24px;padding:0 10px 0 8px;text-shadow:0 1px 1px #2375C7;}
+a.abn2:hover{background-position:left -157px;}
+a.abn2:hover i{background-position:right -183px;}
+
+a.abn3{background-position:left -209px;padding: 0 0 0 2px;}
+a.abn3 i{background-position:right -246px;height:35px;padding:0 10px 0 8px;text-shadow:0 1px 1px #2375C7; line-height:32px;}
+a.abn3:hover{background-position:left -283px;}
+a.abn3:hover i{background-position:right -320px;}
+
+/*评价打分*/
+.fenbg{text-align:left;}
+.fenbg span{display: inline-block;background:url(../com/star.png) no-repeat;}
+.fenbg .star3{width:65px;position:relative;background-position:0 -120px;}
+.fenbg .star3 span{height:11px;background-position:0 -150px;}
+
+/*Footer 布局*/
+.gfoot{margin-top:20px; padding:5px 0;border-top:1px dashed #DBD7D2; color:#999;font-family: Arial;}
+.gfoot a{ color:#999; margin:0 5px;}
+.gfoot span{ color:#CCCCCC;}
+
+/*分页样式*/
+.pages{height:30px;color:#0082cb;line-height:16px;font-family:tahoma;position:relative;text-align:center;}
+.pages a,.pages b,.pages span{padding:4px 10px;margin-right:5px;display:-mox-inline-box;*display:inline-block;}
+.pages a{border:1px solid #eeeeee;text-decoration:none;}
+.pages b,.pages a:hover{background:#62b501;color:#FFF;}
+
+/*提示页面*/
+.msgdiv{background-color:#FFF; margin-top:10px; padding:15px 0 40px;border-radius: 3px;}
+.msgdiv .dmsg{ margin:10px 20px;font-size: 14px;}
+.dmsg{margin-top:80px;}
+.dmsg ul{line-height:180%;color:#333;}
+.dmsg ul{border-top:1px solid #eee;margin:60px 0 0 0;padding:10px 0 0 0;list-style: none;}
+.dmsg ul li b{font-size:14px;line-height:200%;}
+.dmsg p{margin:0;}
+.dmsg .dicon{background:url(../com/reg_warn.png) no-repeat;}
+
+/*20151125改版*/
+
+/*字体图标*/
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot'); /* IE9*/
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff') format('woff'), /* chrome、firefox */
+  url('../font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-xiaoxi:before { content: "\e600"; }
+.icon-shezhi:before { content: "\e601"; }
+.icon-qq:before { content: "\e602"; }
+.icon-pen:before { content: "\e603"; }
+.icon-zhankai:before { content: "\e604"; }
+.icon-shoucang:before { content: "\e605"; }
+.icon-home:before { content: "\e606"; }
+.icon-qqkongjian:before { content: "\e607"; }
+.icon-xinlang:before { content: "\e608"; }
+.icon-link:before { content: "\e609"; }
+.icon-user:before { content: "\e60a"; }
+.icon-jiantou:before { content: "\e60b"; }
+.icon-wenjian:before { content: "\e60c"; }
+.icon-dingdan:before { content: "\e60d"; }
+.icon-anquan:before { content: "\e60e"; }
+.icon-tixing:before { content: "\e60f"; }
+.icon-icongeren:before { content: "\e610"; }
+
+/*公用头*/
+.gtop .plogo{width:144px;}
+.gtop .pmenu li{padding:0; padding-right:21px;}
+.gtop .pmenu{margin-left:45px;}
+.gtop .pmenu li a.link{line-height:40px;}
+.gtop .pmenu li a.link .avatar{width:30px; height:30px; margin-right:7px; vertical-align:-10px;
+    -webkit-border-radius:30px;
+       -moz-border-radius:30px;
+         -o-border-radius:30px;
+        -ms-border-radius:30px;
+            border-radius:30px;
+}
+.gtop .pmenu li a .icon{width:16px; display:inline-block;}
+
+/*select组件*/
+.ui-select{position:relative; width:243px; height:38px; z-index:10; margin:0;
+    -webkit-box-shadow:0 1px 2px #e6e6e6;
+       -moz-box-shadow:0 1px 2px #e6e6e6;
+            box-shadow:0 1px 2px #e6e6e6;
+}
+.ui-select .selectedItem{width:128px; height:36px; border:1px solid #CCC; background:#FFF; position:absolute; left:0; top:0;
+    -webkit-transition:all .3s ease;
+       -moz-transition:all .3s ease;
+            transition:all .3s ease;
+    -webkit-box-shadow:0 1px 2px #E9E9E9 inset;
+       -moz-box-shadow:0 1px 2px #E9E9E9 inset;
+            box-shadow:0 1px 2px #E9E9E9 inset; 
+}
+.ui-select .selectedItem span{position:absolute; line-height:36px; text-indent:7px; cursor:default; font-size:14px;}
+.ui-select .selectedItem i{position:absolute; font-size:12px; right:10px; top:-1px; width:11px; text-align:center; overflow:hidden;}
+.ui-select ul{display:none; position:absolute; left:0; top:37px; width:241px; height:280px; overflow-y:auto; padding:3px 0 4px; border:1px solid #DDD; background:#F0F0F0;}
+.ui-select ul li{height:28px; line-height:28px; cursor:default;}
+.ui-select ul li i{float:left; width:36px; height:28px; font-size:20px; overflow:hidden; text-align:center;color:#F0F0F0;}
+.ui-select ul li:hover{background:#027BD4; color:#FFF;}
+.ui-select ul li:hover i{color:#027BD4; }
+.ui-select ul li.curSelected i{text-indent:0; color:#333;}
+.ui-select ul li.curSelected.hover i{color:#FFF; _color:#027BD4;}
+

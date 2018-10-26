@@ -1,0 +1,111 @@
+/*布局*/
+body{ background-color:#f8f8f8;}
+.gdiv{background-color:#FFF; margin-top:10px; padding:15px 0 40px;
+    border:1px solid #D0CFCF;
+    box-shadow:1px 1px 1px rgba(0,0,0,.1);
+}
+
+h1.regtit{
+    font-family: Microsoft YaHei; font-size:28px; font-weight:normal; border-bottom:1px solid #CCC;
+    height:50px; line-height:50px; margin:0 60px; padding-top:34px; padding-bottom:24px;
+}
+
+.regx{ margin:10px 20px;font-size: 14px;}
+.regl{ float:left;width:575px;margin-left:65px;border-right:1px solid #EEE;min-height: 300px;}
+.regl dl{margin: 0 0 15px 0;}
+.regl dt{display: inline-block;float:left;font-size:14px;line-height:36px; margin:0px;text-align: right;vertical-align: top;width:120px;}
+.regl dt i{ color:#FF4A32; font-style:normal; padding-right:3px; font-size:12px;}
+.regl dd{ margin-left:130px;vertical-align: top;line-height: 36px;}
+.regl .w{
+    width:215px; height:26px; line-height:26px; border:1px solid #CCC; padding:0 5px; background:none; font-size:14px; background:#FFF;
+    -webkit-box-shadow:0 1px 2px #e6e6e6;
+       -moz-box-shadow:0 1px 2px #e6e6e6;
+            box-shadow:0 1px 2px #e6e6e6;
+    -webkit-transition:all .5s ease;
+       -moz-transition:all .5s ease;
+            transition:all .5s ease;
+}
+.regl .tip{display: inline-block; background:url(../com/tip.png) no-repeat 0px 100px; padding-left:20px; }
+.regl .tipOk{ background-position:0px 9px; }
+.regl .tipNo{ background-position:0px -22px; }
+.regl dd p{padding:0; margin:0; color:#999;}
+.regl dd .code{display:inline-block; vertical-align:-9px; *vertical-align:-2px; height:28px;}
+.regl dd .radio{font-size:14px;}
+.regl dd .radio input{ height:29px;line-height:29px;vertical-align: -9px;outline: medium none;}
+.regl dd select{ border:1px solid #EBEBEB;border-color: #C4C4C4 #EBEBEB #EBEBEB #C4C4C4;display: inline-block;padding: 10px 10px 10px 5px;vertical-align: middle;width:90px;outline: medium none;line-height:1.2;margin: 0;}
+.regl dd .regbtn{background-color:#6DB227;border:1px solid #5F9E20;border-radius:3px;color:#FFFFFF;font-weight:bold;height:28px;font-size:14px;padding:0 10px;outline: medium none;}
+.regl dd .regbtn:hover{background-color:#73bc29;}
+.regl dd .regbtn:disabled{background:#ABADA8;border:1px solid #9DA19B;color:#F2F0F0;}
+
+.regr{ width:300px; float:right;}
+.regr p{ margin:0 5px 10px 5px; color:#999;}
+.regr .qrcode{width:167px; margin:10px 0 0;}
+.regr .qrcode img{width:100%; display:block}
+.regr .qrcode p{padding-left:4px; margin:0 0 5px;}
+
+/*开发平台按钮*/
+.rbtnbg a{background:url(../com/ico_login.png?t=2) no-repeat;display: block;height: 30px;margin-bottom: 10px;width: 156px;}
+.rbtnbg a.rbn1{background-position:left 0px;padding: 0 0 0 2px;}
+.rbtnbg a.rbn1:hover{background-position:left -40px;}
+.rbtnbg a.rbn2{background-position:left -80px;padding: 0 0 0 2px;}
+.rbtnbg a.rbn2:hover{background-position:left -120px;}
+.rbtnbg a.rbn3{background-position:left -160px;padding: 0 0 0 2px;}
+.rbtnbg a.rbn3:hover{background-position:left -200px;}
+.rbtnbg a.rbn4{background-position:left -240px;padding: 0 0 0 2px;}
+.rbtnbg a.rbn4:hover{background-position:left -280px;}
+
+/*按钮*/
+.btn1{background:#6AB901;border:1px solid #3AAB04;color:#FFF;font-size:14px;line-height:18px;padding:5px 20px;margin:0;border-radius:3px;}
+.btn1:disabled{background:#ABADA8;border:1px solid #9DA19B;color:#F2F0F0;}
+
+/*完成注册*/
+.regdone h3{font-size: 18px;margin-bottom: 30px;}
+.regdone ul{line-height:180%;color:#333;}
+.regdone ul{margin:60px 0 0 0;padding:10px 0 0 0;list-style: none;}
+.regdone ul li b{font-size:14px;line-height:200%;}
+.regdone p{margin:0;}
+.regdone .dicon{display:block;width:89px;height:116px;background:url(../com/reg_warn.png) no-repeat;}
+
+/*TAB切换*/
+.regtab{background: #f9f9f9;border-bottom: 1px solid #eee; margin:0px 60px 20px; /* margin:0px 10px 20px; */ height:32px;line-height:32px;position:relative;}
+.regtab li{list-style: none;  margin: 0 0 0 7px;float: left;}
+.regtab li a{display: block;padding: 0 10px;font-size: 14px;line-height: 28px;position: relative;top: 4px;}
+.regtab li.ok a{background: #fff;color: #333;border: 1px solid #eee;border-bottom: 0;}
+
+/*步骤*/
+.seekstep{width:837px; margin:20px auto 40px; overflow:hidden; font-size: 14px;line-height: 33px; height: 36px; padding: 0;color: #4b4b4b; }
+.seekstep ul{width:110%;}
+.seekstep li{width: 193px;float:left;height:33px;background: #e4ece5;border:solid 1px #cfdcd1;list-style: none; margin-right: 19px;border-radius: 20px; text-align: center;}
+.seekstep li.ok{background: #7da415;border: solid 1px #567e20;color: #FFF;}
+
+/*个人设置*/
+.tbform td,.tbform th{color:#666666; vertical-align: top;white-space: nowrap;padding-bottom: 17px;line-height: 28px;}
+.tbform th{padding-right:10px;text-align:right; font-weight:normal; font-size:14px; }
+.tbform th i{ font-style:normal;color:#FF6600;}
+.tbform .tinp{
+    width:240px; height:26px; line-height:26px; border:1px solid #CCC; padding:0 5px; background:none; font-size:14px; background:#FFF;
+    -webkit-box-shadow:0 1px 2px #e6e6e6;
+       -moz-box-shadow:0 1px 2px #e6e6e6;
+            box-shadow:0 1px 2px #e6e6e6;
+    -webkit-transition:all .5s ease;
+       -moz-transition:all .5s ease;
+            transition:all .5s ease;
+}
+.tbform .tinp:focus{border-color:#F8B62D;}
+.tbform img.tinc{display: inline-block;vertical-align: middle;}
+.tbform td.vam{vertical-align: middle;}
+.tbform td p{ padding:0px; margin:0px;}
+.tbform .tip{display: inline-block; background:url(../com/tip.png) no-repeat 0px 100px; padding-left:20px;font-size:12px; }
+.tbform .tipOk{ background-position:0px 6px; }
+.tbform .tipNo{ background-position:0px -26px; }
+.tbform .msg{display: inline-block; padding-left:10px;font-size:12px;color:red; }
+.tbform select{ border:1px solid #EBEBEB;border-color: #C4C4C4 #EBEBEB #EBEBEB #C4C4C4;display: inline-block;padding: 10px 10px 10px 5px;vertical-align: middle;width:90px;outline: medium none;line-height:1.2;margin: 0;}
+/* 二维码弹层20160629 */
+.dialogScan{width: 100%;height: 100%;position: fixed;left: 0;top: 0;background: rgba(0,0,0,0.5);text-align: center;z-index: 100;display: none;}
+.dialogScan .main{width: 222px;height: 370px;position: absolute;left: 50%;margin-left: -111px;top:50%;margin-top: -185px;color: #fff;font-size: 14px; font-family: Microsoft YaHei;}
+.dialogScan .main .imgs{display: block;width: 220px;height: 220px;margin:0 auto;border:5px solid #fff;}
+.dialogScan .main img{width: 220px;height: 220px;}
+.dialogScan .main .tips{font-size: 16px;padding:15px 0 20px;}
+.dialogScan .main .icon{display: block;width: 34px;height: 32px;background: url(../com/scan_code_icon.png);margin:0 auto 10px;}
+.dialogScan .main .tips{font-size: 16px;padding:15px 0 20px;}
+.dialogScan .close{position: absolute;font-style: normal;width:40px;height: 40px;text-align: center;line-height: 40px;color: #fff;font-size: 16px;right: -40px;top:-40px;font-family: Microsoft YaHei;cursor: pointer;}

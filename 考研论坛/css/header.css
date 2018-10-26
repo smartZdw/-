@@ -1,0 +1,77 @@
+.hdkyList li.kyGap,.hdkyList li i,.kyAccount li a,.kyHandle li .kyHandleLink,.kyMyInfo .kyGap{ background:url(http://img.kaoyan.com/global/images/head_spirit.png) no-repeat;}
+.kyHd{width:100%; height:42px;background: #ff5000; text-align: center; position: relative; z-index: 1000; color: #333;font:12px/1.75 \5FAE\8F6F\96C5\9ED1,\5b8b\4f53,sans-serif,tahoma,arial,'Hiragino Sans GB'; }
+.kyTop{width:1000px;margin:0 auto; text-align: left; position:relative;}
+.kyLogo{float:left;width:114px; height: 42px; display: inline;  }
+.kyLogo a{ width:102px; height: 42px; display: block; line-height: 999em; overflow: hidden;position: relative; }
+.kyLogo a i{width:102px; height: 42px; display: block; background: url(http://127.0.0.1:8020/考研论坛/img/logo_topbar.png) no-repeat left center;position: absolute;left: 0;top: 0}
+.hdkyList,.kyAccount,.kyHandle{float: left;padding:0; margin: 0; position: relative;}
+.kyHandle{margin: 0; }
+.kyAccount{padding-right: 10px; }
+.hdkyList li,.kyAccount li,.kyHandle li{ float: left;list-style: none;  line-height: 42px; height:42px; position: relative;}
+.hdkyList li{margin-right:1px; display: inline;}
+.kyHandle li{ line-height: 42px; height:42px; }
+.hdkyList li a{ float: left;padding:0 10px;font-size: 12px;color:#fff; text-decoration: none;}
+.hdkyList li.kyGap,.kyMyInfo .kyGap{ width:1px;background-position:-21px 16px; }
+.hdkyList li a:hover{background: #ff8600; color: #fff}
+.hdkyList li.kyCur{background: #ff2e00; color: #fff}
+.hdkyList li i{width:3px; height:40px; float: left; background-position:-19px -22px;  }
+.kyFr{float:right; position: relative;}
+.kyAccount li a{ width:42px; height: 42px; display: block; line-height: 999em; overflow: hidden;}
+.kyAccount li a:hover{ opacity: 0.8;filter:alpha(opacity=80);}
+.kyAccount li.kyWb a{ background-position: 10px -66px;}
+.kyAccount li.kyQq a{ background-position: 10px -109px;}
+.kyAccount li.kyRen a{ background-position: 10px -146px;}
+.kyHandle li .kyHandleLink{width:42px; height: 42px; display: block; line-height: 999em; overflow: hidden; border-left:#0980c3 1px solid; cursor: pointer;}
+.kyHandle li.kySearch .kyHandleLink{ background-position: 10px -187px;}
+.kyHandle li.kyMobile .kyHandleLink{ background-position: 10px -227px; border-right:#0980c3 1px solid;}
+.kyHandle li.kyon .kyHandleLink{background-color: #5eb6e8; height: 42px;  z-index: 3; position: relative;width:42px; height: 42px; display: block; line-height: 999em; overflow: hidden;}
+.kyDownMenu{position: absolute;right: -1px;top:42px; padding:10px; border:#ddd 1px solid;border-top: 0 none; width: 300px; height: 30px; background: #fff; z-index: 2; display: none;}
+.kyMobile .kyDownMenu{width:65px; height: 48px; right: 0;}
+.kyDownMenu p{padding:0; margin: 0; line-height: 24px;}
+.kyDownMenu p a{ color: #333}
+.kyDownMenu p a:hover{ color: #f60}
+.kySearchInput{padding:4px; height: 20px; background: #fff; border:#efefef 1px solid;width:200px; float: left; border-radius: 2px; color: #666; font-size: 12px;}
+.kySearchBtn{width:60px; height: 30px; color: #fff; line-height: 30px; background: #088fdc; border-radius: 3px; text-align: center; float: right; font-size: 14px;}
+a.kySearchBtn:hover{ color: #e5e5e5; text-decoration: none;}
+.kyHandle li.kyon .kyDownMenu{ display: block;}
+.kyMyInfo{ float: left; padding:0; margin: 0; line-height: 42px;  color: #ddd}
+.kyMyInfo a{ margin-right: 12px; color: #fff; float: left; display: inline;}
+.kyMyInfo a:hover{ color: #fff;}
+.kyMyInfo span{float: left;}
+.kyMyInfo .kyGap{margin: 0 12px 0 0; display: inline; height: 42px;}
+.footer{width:1000px; margin:10px auto; text-align:left; font-size: 12px;position: relative; z-index: 1000;color: #333;font:12px/1.75 \5FAE\8F6F\96C5\9ED1,\5b8b\4f53,sans-serif,tahoma,arial,'Hiragino Sans GB';
+    height:111px;
+	text-align:center;
+}
+.footer p{margin:4px 0;}
+.footer a{color:#333; text-decoration: none;}
+.footer p.fGray,.footer p.fGray a{ color: #999}
+.footer p.fGray img{display: inline-block;}
+.footer a:hover{ color: #f60; text-decoration: underline;}
+.clearFooter:after{content:'\20';display:block;height:0;clear:both; font-size: 0; line-height: 0; margin: 0; padding: 0}
+.clearFooter{*zoom:1}
+.shopTynav{width:978px; margin:10px auto 0; text-align:center;border:#ddd 1px solid;padding:6px 0; background: #f5f5f5}
+.shopTynav a{ font-size: 14px; margin:0 32px; color: #555; text-decoration: none;}
+.shopTynav a:hover{ color: #f60}
+.footer .qrcode{position:absolute; right:360px; top:100px; height:111px;}
+.footer .qrcode img{height:91px}
+.footer .qrcode span{display:block; line-height:20px; height:20px; text-align:center;}
+.fGray:last-child{    float: left;
+    margin-left: 370px;
+    margin-top: 50px;}
+/*公用底的二维码推广 20160803*/
+#fbScrolltop{position:fixed;top:120px; left:10px;display:block;width:135px; height:270px;border-top:0;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));_bottom:auto; _margin-bottom:10px;z-index:5002;font:14px/1.75 \5FAE\8F6F\96C5\9ED1,\5B8B\4F53,Arial,sans-serif; color: #555; z-index: 999; /*visibility: hidden;*/display: none; }
+.closeAppPop{ position: absolute;width: 20px; height: 20px; top: 85px; right: 2px; cursor: pointer; line-height: 999em; overflow:hidden; display: block; z-index: 333}
+.closeAppPop1{ position: absolute;width: 48px; height: 20px; top: -20px; right: 0px; cursor: pointer; line-height: 20px; overflow:hidden; display: block; z-index: 333}
+.gotoKybApp{ position: absolute; width: 100%; height: 270px; top: 0; left: 0; display: block; line-height: 999em; overflow: hidden;background:url(http://cdn1.kybimg.com/img/2016/03/02/125944_56d6734077733.png) no-repeat center top; }
+.webCmdList{background:#FFF;border: 1px solid #0d4a90; position: absolute; left: 0px; font-size: 12px; border-radius: 5px; top: 290px;}
+.webCmdList li{border-bottom:#ddd 1px solid;padding:4px 10px; width:113px; height: 24px; line-height:24px; overflow: hidden; color: #3b639f}
+.webCmdList li.bnone{border-bottom: 0 none;}
+#fbScrollbottom{position:fixed; width:140px; bottom:10px; left: 50%; margin-left: -650px;z-index: 1000;}
+#fbScrollbottom a{display:block; height:100%; width:100%;}
+#fbScrollbottom img{width:100%;}
+
+/*悬浮二维码 20170214*/
+.floatQrcode{position:fixed; bottom:120px; left:50%; width:200px; margin-left:-710px; padding-top:20px; z-index:1;}
+.floatQrcode .close{position:absolute; right:0; top:0; font-size:14px;}
+.floatQrcode img{width:100%;}
